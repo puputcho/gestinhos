@@ -1,0 +1,46 @@
+body {
+  background-color: #00DBDE;
+  background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);  
+}
+span {
+  font-size: 30px;
+}
+#camera , #results {
+  border: 5px dashed #8BC6EC;
+  width: 350px;
+  height: 300px; 
+}
+.nomeEmocao {
+  font-size: 40px;
+  color: black;
+}
+.emoji {
+  font-size:48px;
+}
+.myButton {
+	box-shadow: 3px 3px 9px 0px #40f75b;
+	background:linear-gradient(to bottom, #00ffff 5%, #5e99ff 100%);
+	background-color:#00ffff;
+	border-radius:15px;
+	border:1px solid #af4db8;
+	display:inline-block;
+	cursor:pointer;
+	color:#3a8a9e;
+	font-family:Arial;
+	font-size:22px;
+	font-weight:bold;
+	padding:6px 27px;
+	text-decoration:none;
+	text-shadow:0px 1px 3px #e1e2ed;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #5e99ff 5%, #00ffff 100%);
+	background-color:#5e99ff;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+label{
+  padding: 6px;
+}

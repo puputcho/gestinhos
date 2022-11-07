@@ -1,0 +1,69 @@
+ 
+<html>
+  <head>
+    <title>Gestos</title>
+    <!-- BOOTSTRAP -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <!-- ML5 -->
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+    <!-- WEBCAM -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <!-- CSS-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+  <div class="container">
+  
+    <center>
+      <h3 class="heading">Gestos<br> <span style="background-color: #FBAB7E;
+        background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+        border-radius: 100px;">&#9996; &#128077; &#129305;</span></h3>
+
+      <br><br>
+
+
+        
+      </p>
+
+      <!-- visualização ao vivo da webcam -->
+      <div class="col-md-4 col-sm-12 col-xs-12">
+        <label>Webcam:</label>
+        <div id="camera"></div>
+        <br>
+        <a class="myButton" onclick="capturar()">Capturar</a>
+      </div>
+
+
+      <!-- previsões -->
+      <div class="col-md-4 col-sm-12 col-xs-12">
+        <label>Previsão 1</label>
+        <p class="nomeemocao" id="resultadoemocao"></p>
+        <p class="emoji" id="updateEmoji"></p>
+      </div>
+
+      <!-- exibir foto capturada -->
+      <div class="col-md-4 col-sm-12 col-xs-12">
+	      <label>Foto:</label>
+        <div id="results"></div>
+        <br>
+        <a class="myButton" onclick="check()">Prever Gesto</a>
+      </div>
+
+    </center>
+
+  </div>
+  <br><br>
+
+  <script src="main.js"></script>
+
+  </body>
+</html>
+
+ 
